@@ -1,0 +1,9 @@
+# local run output and submission artefacts
+out/
+*.tar.gz
+# never commit keys or secrets
+wallet*.json
+*.keypair.json
+.env
+.env.*
+node_modules/

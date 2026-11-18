@@ -1,0 +1,12 @@
+{
+  "name": "token-launch-radar",
+  "private": true,
+  "description": "A token launch radar: ranks pre-token DeFi protocols by implied value and plans how to farm each.",
+  "license": "MIT",
+  "type": "module",
+  "engines": { "node": ">=22.18" },
+  "scripts": {
+    "start": "node main.ts",
+    "test": "node --test tests/*.test.ts"
+  }
+}

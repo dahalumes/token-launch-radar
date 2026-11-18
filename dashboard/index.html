@@ -1,0 +1,33 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Token Launch Radar</title>
+<link rel="stylesheet" href="app.css">
+</head>
+<body>
+<a class="skip" href="#/" id="skip">Skip to content</a>
+<header class="top">
+  <div class="brand">
+    <span class="mark" aria-hidden="true"></span>
+    <div>
+      <h1>Token Launch Radar</h1>
+      <p class="sub" id="sub">Protocols whose record shows no token, ranked by a model estimate</p>
+    </div>
+  </div>
+  <nav class="tabs" aria-label="Views">
+    <a href="#/" data-view="board">Radar</a>
+    <a href="#/trading" data-view="trading">Already trading</a>
+    <a href="#/method" data-view="method">Method</a>
+  </nav>
+</header>
+<section class="kpis" id="kpis" aria-label="Summary"></section>
+<main id="view" tabindex="-1"></main>
+<footer class="foot" id="foot"></footer>
+<noscript><p class="empty">This dashboard needs JavaScript to render the board.</p></noscript>
+<script src="../data.js"></script>
+<script src="model.js"></script>
+<script src="app.js"></script>
+</body>
+</html>
